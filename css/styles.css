@@ -1,10 +1,42 @@
+/* body */
+.pagebody{
+	background-color: #fff;
+	color:#757575 ;
+}
+
+/* ul none */
+.list{
+	list-style-type: none;
+}
+
+/* UL */
+.pagebody ul{
+	 ;list-style-type: none;
+}
+
+/* header */
 .header-logo{
-	color: #111111;
+	color:#000000 ;
 }
-.header-logo:hover,
-.header-logo:focus {
+.logoweb{
+	color:#2196F3 ;
+}
+
+/* Site nav */
+.nav .a-nav{
+	color: #212121;
+}
+.nav .a-nav:hover,
+.nav .a-nav:focus{
 	color: #2196F3;
-}
-.header-logo:active{
-	color: aqua;
-}
+	}
+
+/* #212121 основной цвет текста( Черный) */
+/* #757575 текст абзаца */
+
+
+/* #2196F3 bg color button, наведение
+   #FFFFFF text color button*/
+
+/* #FFFFFF body background color */
+/* #2F303A footer bg color and 1st section */
