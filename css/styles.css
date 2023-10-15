@@ -1,3 +1,8 @@
+:root{
+	--txt-color: ;
+	--xxeret-color: ;
+}
+
 /* body */
 .pagebody{
 	background-color: #fff;
@@ -31,8 +36,33 @@
 	color: #2196F3;
 	}
 
+	.contacts .mail-phone{
+		color: #757575;
+	}
 
+	.contacts .mail-phone:hover,
+	.contacts .mail-phone:focus{
+		color: #2196F3;
+	}
 	
+	/* Section1 */
+	.section1 .s1h1{
+		color: #FFFFFF;
+	}
+	.section1{
+		background-color: #2F303A;
+	}
+
+	.section1 .button{
+		background-color: #2196F3 ;
+		color: #FFFFFF ;
+	}
+
+/* Section2> */
+	.section2 .section2-title{
+		color: #212121;
+	}
+
 /* #212121 основной цвет текста( Черный) */
 /* #757575 текст абзаца */
 
