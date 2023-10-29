@@ -1,6 +1,7 @@
 :root{
-	--txt-color: ;
-	--xxeret-color: ;
+	--txt-color:#212121 ;
+	--body-color:#757575 ;
+	--hover-color:#2196F3 ;
 }
 
 /* body */
@@ -45,6 +46,10 @@
 		color: #2196F3;
 	}
 	
+	.nav .a-nav.current{
+		color: var(--hover-color) ;
+	}
+
 	/* Section1 */
 	.section1 .s1h1{
 		color: #FFFFFF;
