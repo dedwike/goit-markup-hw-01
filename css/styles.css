@@ -2,6 +2,10 @@
 	--txt-color:#212121 ;
 	--body-color:#757575 ;
 	--hover-color:#2196F3 ;
+	--button-text-color:#FFFFFF ;
+	--footer-bg-color:#2F303A ;
+	--button-bg-color:#F5F4FA ;
+
 }
 
 /* body */
@@ -68,12 +72,13 @@
 		color: #212121;
 	}
 
-/* #212121 основной цвет текста( Черный) */
-/* #757575 текст абзаца */
-
-
-/* #2196F3 bg color button, наведение
-   #FFFFFF text color button*/
-
-/* #FFFFFF body background color */
-/* #2F303A footer bg color and 1st section */
+/* portfolio */
+.div1 .div-button{
+	color:var(--txt-color) ;
+	background-color:var(--button-bg-color);
+}
+.div1 .div-button:hover,
+.div1 .div-button:focus{
+color: var(--button-text-color) ;
+background-color:var(--hover-color);
+}
